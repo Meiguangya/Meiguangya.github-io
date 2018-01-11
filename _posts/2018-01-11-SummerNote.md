@@ -6,11 +6,13 @@ tags: model
 ---
 
 # SummerNote富文本插件的使用
-[summernote https://summernote.org/](https://summernote.org/)
-[github网址](https://github.com/summernote/summernote)
+[summernote https://summernote.org/](https://summernote.org/) <br>
+[github网址](https://github.com/summernote/summernote)<br>
+
 ### 快速使用
 
 1. include JS/CSS
+
 ```
 <!-- include libraries(jQuery, bootstrap) -->
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
@@ -28,6 +30,7 @@ tags: model
 ```
 
 3. 在js代码中初始化区域
+
 ```
 $(function(
 	//使用summernote方法初始化
@@ -41,6 +44,7 @@ $(function(
 	});
 	
 ));
+
 ```
 
 *这样基本就可以看到效果了*
