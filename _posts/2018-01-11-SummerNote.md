@@ -2,17 +2,17 @@
 layout: post
 title: SummerNote
 key: fxHqCAcTXtnRTXu2Uf3Efgo6
-tags: model
+tags: plugin
 ---
 
 # SummerNote富文本插件的使用
-[summernote https://summernote.org/](https://summernote.org/) <br>
-[github网址](https://github.com/summernote/summernote)<br>
+[https://summernote.org/](https://summernote.org/) <br>
+[github](https://github.com/summernote/summernote)<br>
 
 ### 快速使用
 <br>
 
-1.include JS/CSS
+#### include JS/CSS
 
 ```
 <!-- include libraries(jQuery, bootstrap) -->
@@ -25,14 +25,14 @@ tags: model
 <script src="summernote.js"></script>
 ```
 
-2.定义一个来显示富文本的区域
+#### 定义一个来显示富文本的区域
 
 ```
 <div class="summernote"></div>
 
 ```
 
-3.在js代码中初始化区域
+#### 在js代码中初始化区域
 
 ```
 $(function(
@@ -53,20 +53,19 @@ $(function(
 *这样基本就可以看到效果了*
 <hr>
 
-4.使用summernote('code')获取文本内容
+#### 使用summernote('code')获取文本内容
 
 ```
 var context = $(".summernote").summernote('code');
 ```
 
 
-5.获取焦点
+#### 获取焦点
 
 ```
 $('.summernot').summernote({
 	focus: true
 });
-
 ```
 
 **上传插件的功能？**
