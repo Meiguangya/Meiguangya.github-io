@@ -12,7 +12,7 @@ tags: model
 ### 快速使用
 <br>
 
-1. include JS/CSS
+1.include JS/CSS
 
 ```
 <!-- include libraries(jQuery, bootstrap) -->
@@ -25,14 +25,14 @@ tags: model
 <script src="summernote.js"></script>
 ```
 
-2. 定义一个来显示富文本的区域
+2.定义一个来显示富文本的区域
 
 ```
 <div class="summernote"></div>
 
 ```
 
-3. 在js代码中初始化区域
+3.在js代码中初始化区域
 
 ```
 $(function(
@@ -53,14 +53,14 @@ $(function(
 *这样基本就可以看到效果了*
 <hr>
 
-4. 使用summernote('code')获取文本内容
+4.使用summernote('code')获取文本内容
 
 ```
 var context = $(".summernote").summernote('code');
 ```
 
 
-5. 获取焦点
+5.获取焦点
 
 ```
 $('.summernot').summernote({
