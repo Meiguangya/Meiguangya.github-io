@@ -1,122 +1,70 @@
-# Welcome to Jekyll!
+# Basic
+title: 潘柏信
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: leopardpan
+# 头像里面的描述
+avatarDesc: iOS / 机器学习
+url: "http://baixin.io"
+
+# Comment
+comment:
+    disqus: leopard
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    weibo: 5366874726 
+    github: leopardpan
+    # twitter: 
+    mail: leopardpan@icloud.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-84134159-3   
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 #
-# ,--------.      ,--.   ,--. ,--.
-# '--.  .--',---.  \  `.'  /,-'  '-.
-#    |  |  | .-. :  .'    \ '-.  .-'
-#    |  |  \   --. /  .'.  \  |  |
-#    `--'   `----''--'   '--' `--'
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
-## Base settings ##
-# url:  #the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl: /
-title: Alyssa's blog
-description: > #this means to ignore newlines until "nav_lists:"
-  Alyssa's Blog
 
-nav_lists:
-  - titles:
-      en: About
-      zh: 关于
-      zh-Hans: 关于
-      zh-Hant: 關於
-    url: /about.html
-
-# paths:
-#   base: /
-#   home: /
-#   all:  /all.html
-#   rss:  /feed.xml
-
-## GitHub repository (if the site is hosted by GitHub) ##
-# repository:  #e.g. someone/someone.github.io
-# repository_tree:  #e.g. master
-
-## Language & timezone ##
-lang: zh #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
-timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
-
-## Author & social ##
-author:
-  name: Someone
-  # email:  #your Email address e.g. someone@site.com
-  # facebook:  #your Facebook username
-  # twitter:  #your Twitter username
-  # github:  #your GitHub username
-  # googleplus:  #your Google+ username
-  # weibo:  #your Weibo username
-  # douban:  #your Douban username
-  # linkedin:  #your Linkedin username
-
-## Comment system (Disqus) ##
-disqus:
-  # shortname:  #the Disqus shortname for the site
-
-## Comment system (gitalk) ##
-# please refer to https://github.com/gitalk/gitalk for more info.
-gitalk:
-  # clientID:  #Github Application Client ID
-  # clientSecret:  #Github Application Client Secret
-  # repository:  #Github repo
-  # owner:  #Github repo owner
-  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-    # - owner
-
-## Google Analytics ##
-# ga_tracking_id:  #Google analytics id for the site
-
-## Reading quantity (LeanCloud) ##
-leancloud:
-   app_id:  tCVBJsrCBAx8YOXfrd4hRaow-gzGzoHsz
-   app_key:  fxHqCAcTXtnRTXu2Uf3Efgo6
-   app_class:  AlyssaBlog
-
-# mathjax: true
-
-## Paginate ##
-paginate: 5
-paginate_path: /blog/page:num
-
-## Post excerpts ##
-excerpt_separator: <!--more-->
-excerpt_type: html # text | html
-
-## Build ##
-markdown: kramdown
+permalink: /:year/:month/:title/
+# Format
 highlighter: rouge
-permalink: date
 
-exclude:
-  - CHANGELOG.md
-  - CHECKLIST.md
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README-*.md
-  - README.md
-  - gulpfile.js
-  - jekyll-text-theme.gemspec
-  - package-lock.json
-  - package.json
-  - /docs
-  - /node_modules
-  - /screenshots
-  - /test
-  - /vendor
+textColor: #FF0000
 
-## Plugins ##
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jemoji
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
 
-## Server ##
-server_url: "0.0.0.0"
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
 
-## Development ##
-isdebug: false
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
