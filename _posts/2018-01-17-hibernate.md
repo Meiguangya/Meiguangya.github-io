@@ -55,9 +55,7 @@ tags: hibernate
 -
 1. xml中设置property标签update="false"
 2. dynamic-update="true"
-3. @DynamicUpdate注解
-`@DynamicUpdate`
-
+3. @DynamicUpdate注解 `@DynamicUpdate`
 4. 使用HQL语句（灵活，方便）
 
 ```
